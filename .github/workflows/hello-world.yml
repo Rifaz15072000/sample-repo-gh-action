@@ -10,3 +10,13 @@ jobs:
         run: mkdir rifaz
       - name: create a file
         run: touch rifaz.xyz
+
+  my-job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step2
+        run: echo "Hello World!"
+      - name: create a dir2
+        run: mkdir rifaz
+      - name: create a file2
+        run: touch rifaz.xyz
