@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+      - name: create a dir
+        run: mkdir rifaz
+      - name: create a file
+        run: touch rifaz.xyz
